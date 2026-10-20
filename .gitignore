@@ -1,0 +1,8 @@
+.venv/
+.packages/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+experience_engine.db
+.env
+benchmark/results/*.json

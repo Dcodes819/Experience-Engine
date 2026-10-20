@@ -1,0 +1,3 @@
+# Configurable, model-safe embeddings
+
+The offline hashing provider remains the deterministic, dependency-free default so tests and demos work without model downloads or API credentials. A local Sentence Transformers provider is optional and configured with environment variables. Every experience records the provider identifier and vector dimension, and retrieval fails rather than comparing vectors created by incompatible models. Re-embedding is an explicit migration operation, not a silent side effect of search.
